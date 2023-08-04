@@ -1,0 +1,27 @@
+.custom-color {
+  color: #718e80;
+}
+.underlined {
+  text-decoration: underline;
+}
+.upper {
+  text-transform: uppercase;
+}
+
+.underlined:hover {
+  transform: scaleX(1.2);
+}
+.underlined {
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+}
+
+#testing {
+  height: 70vh; /* or adjust to the desired height */
+  overflow: hidden;
+}
+
+.active {
+  color: black;
+  text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
+}
