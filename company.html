@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="clients.css" />
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="construction.css">
+    <link rel="stylesheet" href="company.css">
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -68,9 +69,17 @@
       class="fixed top-0 left-0 z-50 h-12 inline-block"
       style="width: 193.81px"
     >
-      <a href="/">
-        <img src="images/logo_inter.png" alt="Company Logo" class="h-full" />
-      </a>
+      
+    <div
+    class="fixed top-0 left-0 z-50 h-12 inline-block "
+    style="width: 193.81px"
+  >
+    <a href="/">
+      <span  style="font-size: 1.5em; font-weight: bold; color: #000; margin-right: 20px;">ΣΤΡΑΤΑ Α.Τ.Ε</span>
+      <img  class="ml-40 h-full" src="images/logo_inter.png" alt="Logo" style="margin-top: -40px ;" />
+    </a>
+  </div>
+  
     </header>
 
     <main class="ml-16 relative pb-28 px-8 py-12">
@@ -83,16 +92,20 @@
       <div class="absolute inset-0 h-screen w-full bg-cover bg-center"></div>
       <!--  container for text -->
       <div
-        class="relative h-screen flex items-center justify-center text-center"
-      >
-        <h2
-          class="text-5xl font-bold text-white mb-6"
-          data-aos="fade-down"
-          data-aos-duration="3000"
-        >
-          Η εταιρεία
-        </h2>
-      </div>
+  class="relative h-screen flex items-center justify-center text-center"
+>
+  <h2
+    class="text-5xl font-bold text-white mb-6"
+    data-aos="fade-down"
+    data-aos-duration="3000"
+  >
+    Η εταιρεία
+  </h2>
+  <a href="#all" class="scroll-down-arrow" aria-label="Scroll down">
+    ⮟
+  </a>
+</div>
+
       <section
     id="all"
     class="p-4 mt-10 md:mt-20 pt-10 md:pt-24 md:block hidden"
