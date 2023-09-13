@@ -37,6 +37,7 @@
     <script>
       tailwind.config = {
         theme: {
+         
           extend: {
             backgroundImage: theme => ({
         'construction-site': "url('images/kifisia_191.jpg')",
@@ -93,6 +94,14 @@
     }
 </style>
 
+<style>
+  @media (max-width: 640px) {
+      .background-image {
+          background-size: 611px 617px !important;
+      }
+  }
+</style>
+
 
 
 <title> Inter-tech • Welcome</title>
@@ -127,9 +136,9 @@
     
     
 
-   <main class="ml-16 relative pb-28 px-8 py-12">
+    <main class="ml-16 relative pb-28 px-8 py-12">
       <!-- background image -->
-      <div class="absolute inset-0 h-screen w-full bg-cover bg-center" style="background-image: url('images/kifisia_211_Photo.jpg');"></div>
+      <div class="absolute inset-0 h-screen w-full bg-cover bg-center background-image" style="background-image: url('images/kifisia_211_Photo.jpg');"></div>
       <!-- semi-transparent overlay -->
       <div class="absolute inset-0 h-screen w-full bg-black opacity-50"></div>
       <!-- container for text -->
@@ -140,6 +149,7 @@
           </h2>
       </div>
   </main>
+
   
 
       <section class="max-w-4xl px-1 py-12 pl-20 bg-white text-left text-blue-500" data-aos="fade-down" data-aos-duration="800">
@@ -153,6 +163,8 @@
             font-size: 1.4em;
         }
     }
+
+    
       
           .logo-align {
               display: flex;
@@ -187,9 +199,7 @@
       
       
       
-            <a href="company.html" class="inline-block border-b-2 border-blue-500 text-blue-500 text-sm pb-1 whitespace-normal transition-width duration-400 ease-in-out" data-aos="fade-up" data-aos-duration="800">
-                Η ΕΤΑΙΡΕΙΑ
-            </a>
+            
         </div>
     </section>
 
@@ -775,10 +785,10 @@
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
       <!-- Start of image 1 -->
       <div>
-          <a href="images/SIggros_03.JPG" data-fancybox="gallery" data-caption="54. ΚΑΤΑΣΚΕΥΕΣ ΑΚΤΙΝΟΠΡΟΣΤΑΣΙΑΣ ΣΤΟ ΑΚΤΙΝΟΛΟΓΙΚΟ ΝΟΣΟΚΟΜΕΙΟ ΑΝΔΡΕΑΣ ΣΥΓΓΡΟΣ">
+          <a href="images/SIggros_03.JPG" data-fancybox="gallery" data-caption="54. ΥΔΡΑΥΛΙΚΕΣ ΕΓΚΑΤΑΣΤΑΣΕΙΣ-ΥΠΟΔΟΜΕΣ-ΔΙΑΜΟΡΦΩΣΗ ΣΤΟΜΑΤΟΛΟΓΙΚΟΥ ΝΟΣΟΚΟΜΕΙΟ ΑΝΔΡΕΑΣ ΣΥΓΓΡΟΣ">
               <div class="bg-cover bg-center h-64 md:h-80 cursor-pointer" style="background-image: url(images/SIggros_03.JPG);"></div>
           </a>
-          <p class="text-center mt-2 text-blue-500">54. ΚΑΤΑΣΚΕΥΕΣ ΑΚΤΙΝΟΠΡΟΣΤΑΣΙΑΣ ΣΤΟ ΑΚΤΙΝΟΛΟΓΙΚΟ ΝΟΣΟΚΟΜΕΙΟ ΑΝΔΡΕΑΣ ΣΥΓΓΡΟΣ</p>
+          <p class="text-center mt-2 text-blue-500">54. ΥΔΡΑΥΛΙΚΕΣ ΕΓΚΑΤΑΣΤΑΣΕΙΣ-ΥΠΟΔΟΜΕΣ-ΔΙΑΜΟΡΦΩΣΗ ΣΤΟΜΑΤΟΛΟΓΙΚΟΥ ΝΟΣΟΚΟΜΕΙΟ ΑΝΔΡΕΑΣ ΣΥΓΓΡΟΣ</p>
       </div>
       <!-- End of image 1 -->
 
@@ -1029,7 +1039,7 @@
 
   </section>
 
-  <section class="relative mt-96 h-[50vh] bg-construction-site bg-center bg-cover w-full"></section>
+  <section class="relative mt-16 h-[50vh] bg-construction-site bg-center bg-cover w-full"></section>
 
  
 
