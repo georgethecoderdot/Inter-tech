@@ -291,10 +291,10 @@
         <h2 class="font-bold text-2xl mb-6 text-center text-black" data-aos="fade-right" data-aos-duration="2000">
           Γιατί να μας επιλέξετε
         </h2>
-        <section class="grid grid-cols-1 gap-4 p-4 mt-10" data-aos="fade-right" data-aos-duration="2000">
+        <section id="flex"  class="grid grid-cols-1 gap-4 p-4 mt-10" data-aos="fade-right" data-aos-duration="2000">
           <!-- Start of card 1 -->
-          <div class="card bg-white rounded-xl shadow-lg p-6 mb-6">
-            <h2 id="flexibility" class="font-bold text-xl mb-4 text-blue-500">
+          <div  class="card bg-white rounded-xl shadow-lg p-6 mb-6">
+            <h2  class="font-bold text-xl mb-4 text-blue-500">
               Ευελιξία
             </h2>
             <p class="text-gray-700 text-base leading-relaxed mb-4">
@@ -307,8 +307,8 @@
           <!-- End of card 1 -->
     
           <!-- Start of card 2 -->
-          <div class="card bg-white rounded-xl shadow-lg p-6 mb-6">
-            <h2 id="tech" class="font-bold text-xl mb-4 text-blue-500">
+          <div id="tech_" class="card bg-white rounded-xl shadow-lg p-6 mb-6">
+            <h2  class="font-bold text-xl mb-4 text-blue-500">
               Τεχνολογία
             </h2>
             <p class="text-gray-700 text-base leading-relaxed mb-4">
@@ -321,7 +321,7 @@
     
           <!-- Start of card 3 -->
           <div class="card bg-white rounded-xl shadow-lg p-6 mb-6">
-            <h2 id="quality" class="font-bold text-xl mb-4 text-blue-500">
+            <h2 id="quality_" class="font-bold text-xl mb-4 text-blue-500">
               Ποιότητα
             </h2>
             <p class="text-gray-700 text-base leading-relaxed mb-4">
@@ -337,7 +337,7 @@
     
           <!-- Start of card 4 -->
           <div class="card bg-white rounded-xl shadow-lg p-6 mb-6">
-            <h2 id="environment" class="font-bold text-xl mb-4 text-blue-500">
+            <h2 id="env" class="font-bold text-xl mb-4 text-blue-500">
               Περιβάλλον
             </h2>
             <p class="text-gray-700 text-base leading-relaxed mb-4">
@@ -349,7 +349,7 @@
         </section>
       </div>
 
-      <div class="container mx-auto mt-20" id="ipiresies" data-aos="fade-left" data-aos-duration="2000">
+      <div class="container mx-auto mt-20" id="ip" data-aos="fade-left" data-aos-duration="2000">
         <h2 class="font-bold text-2xl mb-6 text-center text-black">
           Υπηρεσίες
         </h2>
@@ -699,16 +699,16 @@
         <div class="mt-4 flex flex-col space-y-4 items-center">
           <a class="px-2 py-1 inline-block text-lg no-underline transition-colors duration-300 ease-in-out hover:text-blue-500 " href="index.html">ΑΡΧΙΚΗ</a>
           <div class="group inline-block relative">
-            <button class="dropdown-toggle px-2 inline-block no-underline transition-colors duration-300 ease-in-out hover:text-blue-500 border-b-2 border-blue-500">Η ΕΤΑΙΡΕΙΑ <i class="fas fa-caret-down"></i><b class="font-bold"></b></button>
+            <a class="dropdown-toggle px-2 inline-block no-underline transition-colors duration-300 ease-in-out hover:text-blue-500 border-b-2 border-blue-500" href="company.html">Η ΕΤΑΙΡΕΙΑ <i class="fas fa-caret-down"></i><b class="font-bold"></b></a>
             <div class="submenu absolute left-0 mt-1 w-40 py-1 bg-white rounded-lg shadow-xl opacity-0 transition-opacity duration-200 border border-gray-200 rounded-md">
-              <a href="#all" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΕΥΕΛΙΞΙΑ</a>
-              <a href="#all" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΠΟΙΟΤΗΤΑ</a>
-              <a href="#all" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΤΕΧΝΟΛΟΓΙΑ</a>
-              <a href="#all" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΠΕΡΙΒΑΛΛΟΝ</a>
-              <a href="#ipiresies" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΥΠΗΡΕΣΙΕΣ</a>
+              <a id="flex-link" href="#flex" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΕΥΕΛΙΞΙΑ</a>
+              <a id="quality-link" href="#quality_" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΠΟΙΟΤΗΤΑ</a>
+              <a id="tech-link" href="#tech_" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΤΕΧΝΟΛΟΓΙΑ</a>
+              <a id="env-link" href="#env" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΠΕΡΙΒΑΛΛΟΝ</a>
+              <a id="ip-link" href="#ip" class="block px-2 py-1 text-gray-800 hover:text-blue-500 transition-colors duration-200">ΥΠΗΡΕΣΙΕΣ</a>
             </div>
           </div>
-          <a class="px-2 py-1 inline-block text-lg no-underline transition-colors duration-300 ease-in-out hover:text-blue-500" href="#ourWork">ΕΡΓΑ</a>
+          <a class="px-2 py-1 inline-block text-lg no-underline transition-colors duration-300 ease-in-out hover:text-blue-500" id="erga-link" href="index.html#ourWork">ΕΡΓΑ</a>
           <a class="px-2 py-1 inline-block text-lg no-underline transition-colors duration-300 ease-in-out hover:text-blue-500" href="#strataSection">ΣΤΡΑΤΑ Α.Τ.Ε</a>
           <a href="#uniqueSection"> <img class="h-6 w-auto" src="images/logoHotel.png" alt="Logo"></a>
         </div>
@@ -742,8 +742,23 @@
     <script src="ourWork.js"></script>
     <script src="Strata.js"></script>
     <script src="UniqueHotel.js"></script>
+    <script src="direction.js"></script>
+    <script src="direction_company.js"></script>
+
+   
+    
+   
     <script>
       AOS.init();
     </script>
+
+
+
+
+
+
+
+
+    
   </body>
 </html>
